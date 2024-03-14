@@ -298,7 +298,7 @@ default_styles = get_config_item_or_set_default(
 )
 default_prompt_negative = get_config_item_or_set_default(
     key='default_prompt_negative',
-    default_value='',
+    default_value='deformed hands, deformed fingers, low resolution, text, error, missing arms, missing legs, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, jpeg artifacts, signature, watermark, out of frame, extra fingers, mutated hands, (poorly drawn hands), (poorly drawn face), (mutation), (deformed breasts), (ugly), blurry, (bad anatomy), (bad proportions), (extra limbs), cloned face, flat color, monochrome, limited palette',
     validator=lambda x: isinstance(x, str),
     disable_empty_as_none=True
 )
@@ -335,12 +335,25 @@ default_image_number = get_config_item_or_set_default(
 )
 checkpoint_downloads = get_config_item_or_set_default(
     key='checkpoint_downloads',
-    default_value={},
+    default_value={
+        "JuggernautXL.safetensors": "https://civitai.com/api/download/models/357609",
+        "PixelArtDiffusionXL.safetensors": "https://civitai.com/api/download/models/364043?type=Model&format=SafeTensor&size=pruned&fp=fp16",
+        #"SDXLUnstableDiffusers.safetensors": "https://civitai.com/api/download/models/276923?type=Model&format=SafeTensor&size=full&fp=fp16",
+    },
     validator=lambda x: isinstance(x, dict) and all(isinstance(k, str) and isinstance(v, str) for k, v in x.items())
 )
 lora_downloads = get_config_item_or_set_default(
     key='lora_downloads',
-    default_value={},
+    default_value={
+        "NsfwPovAllInOneLoraSdxl.safetensors": "https://civitai.com/api/download/models/160240?type=Model&format=SafeTensor",
+        "Frozen-Elsa2.safetensors": "https://civitai.com/api/download/models/47342?type=Model&format=SafeTensor",
+        "MoreArt.safetensors": "https://civitai.com/api/download/models/152309?type=Model&format=SafeTensor",
+        #"FlatChested.safetensors": "https://civitai.com/api/download/models/238896?type=Model&format=SafeTensor",
+        #"DetailTweaker.safetensors": "https://civitai.com/api/download/models/135867?type=Model&format=SafeTensor",
+        #"FingerZAndTongue.safetensors": "https://civitai.com/api/download/models/327333?type=Model&format=SafeTensor",
+        #"Labiaplasty.safetensors": "https://civitai.com/api/download/models/182404?type=Model&format=SafeTensor",
+        "PixelArtXL.safetensors": "https://civitai.com/api/download/models/135931"
+    },
     validator=lambda x: isinstance(x, dict) and all(isinstance(k, str) and isinstance(v, str) for k, v in x.items())
 )
 embeddings_downloads = get_config_item_or_set_default(
