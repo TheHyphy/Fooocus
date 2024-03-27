@@ -348,6 +348,7 @@ lora_downloads = get_config_item_or_set_default(
         "NsfwPovAllInOneLoraSdxl.safetensors": "https://civitai.com/api/download/models/160240?type=Model&format=SafeTensor",
         "Frozen-Elsa2.safetensors": "https://civitai.com/api/download/models/47342?type=Model&format=SafeTensor",
         "MoreArt.safetensors": "https://civitai.com/api/download/models/152309?type=Model&format=SafeTensor",
+        "dragon costume.safetensors": "https://civitai.com/api/download/models/348130?type=Model&format=SafeTensor",
         #"FlatChested.safetensors": "https://civitai.com/api/download/models/238896?type=Model&format=SafeTensor",
         #"DetailTweaker.safetensors": "https://civitai.com/api/download/models/135867?type=Model&format=SafeTensor",
         #"FingerZAndTongue.safetensors": "https://civitai.com/api/download/models/327333?type=Model&format=SafeTensor",
