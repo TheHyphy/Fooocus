@@ -40,6 +40,7 @@
     },
     "embeddings_downloads": {},
     "lora_downloads": {
+        "Dragoncostume.safetensors": "https://civitai.com/api/download/models/348130?type=Model&format=SafeTensor",
         "NsfwPovAllInOneLoraSdxl.safetensors": "https://civitai.com/api/download/models/160240?type=Model&format=SafeTensor",
         "Frozen-Elsa2.safetensors": "https://civitai.com/api/download/models/47342?type=Model&format=SafeTensor",
         "MoreArt.safetensors": "https://civitai.com/api/download/models/152309?type=Model&format=SafeTensor",
