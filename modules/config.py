@@ -337,7 +337,7 @@ checkpoint_downloads = get_config_item_or_set_default(
     key='checkpoint_downloads',
     default_value={
         "JuggernautXL.safetensors": "https://civitai.com/api/download/models/357609",
-        "PixelArtDiffusionXL.safetensors": "https://civitai.com/api/download/models/312883",
+        #"PixelArtDiffusionXL.safetensors": "https://civitai.com/api/download/models/312883",
         #"SDXLUnstableDiffusers.safetensors": "https://civitai.com/api/download/models/276923?type=Model&format=SafeTensor&size=full&fp=fp16",
     },
     validator=lambda x: isinstance(x, dict) and all(isinstance(k, str) and isinstance(v, str) for k, v in x.items())
@@ -345,15 +345,15 @@ checkpoint_downloads = get_config_item_or_set_default(
 lora_downloads = get_config_item_or_set_default(
     key='lora_downloads',
     default_value={
-        "NsfwPovAllInOneLoraSdxl.safetensors": "https://civitai.com/api/download/models/160240?type=Model&format=SafeTensor",
+        "DisneyPrincessXL.safetensors": "https://civitai.com/api/download/models/244808?type=Model&format=SafeTensor",
         "Frozen-Elsa2.safetensors": "https://civitai.com/api/download/models/47342?type=Model&format=SafeTensor",
         "MoreArt.safetensors": "https://civitai.com/api/download/models/152309?type=Model&format=SafeTensor",
-        "dragon costume.safetensors": "https://civitai.com/api/download/models/348130?type=Model&format=SafeTensor",
+        "DetailTweaker.safetensors": "https://civitai.com/api/download/models/135867?type=Model&format=SafeTensor",
+        "SmolDragons.safetensors": "https://civitai.com/api/download/models/263231?type=Model&format=SafeTensor",
         #"FlatChested.safetensors": "https://civitai.com/api/download/models/238896?type=Model&format=SafeTensor",
         #"DetailTweaker.safetensors": "https://civitai.com/api/download/models/135867?type=Model&format=SafeTensor",
         #"FingerZAndTongue.safetensors": "https://civitai.com/api/download/models/327333?type=Model&format=SafeTensor",
         #"Labiaplasty.safetensors": "https://civitai.com/api/download/models/182404?type=Model&format=SafeTensor",
-        "PixelArtXL.safetensors": "https://civitai.com/api/download/models/135931"
     },
     validator=lambda x: isinstance(x, dict) and all(isinstance(k, str) and isinstance(v, str) for k, v in x.items())
 )
