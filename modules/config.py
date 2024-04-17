@@ -336,7 +336,8 @@ default_image_number = get_config_item_or_set_default(
 checkpoint_downloads = get_config_item_or_set_default(
     key='checkpoint_downloads',
     default_value={
-        "JuggernautXL.safetensors": "https://civitai.com/api/download/models/357609",
+        #"JuggernautXL.safetensors": "https://civitai.com/api/download/models/357609",
+        "PonyDiffusionV6XL.safetensors": "https://civitai.com/api/download/models/290640?type=Model&format=SafeTensor&size=pruned&fp=fp16",
         #"PixelArtDiffusionXL.safetensors": "https://civitai.com/api/download/models/312883",
         #"SDXLUnstableDiffusers.safetensors": "https://civitai.com/api/download/models/276923?type=Model&format=SafeTensor&size=full&fp=fp16",
     },
