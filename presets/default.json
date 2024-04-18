@@ -40,7 +40,7 @@
     "embeddings_downloads": {},
     "lora_downloads": {
         "DisneyPrincessXL.safetensors": "https://civitai.com/api/download/models/244808?type=Model&format=SafeTensor",
-        "Frozen-Elsa2.safetensors": "https://civitai.com/api/download/models/47342?type=Model&format=SafeTensor",
+        "Elsa.safetensors": "https://civitai.com/api/download/models/426638",
         "MoreArt.safetensors": "https://civitai.com/api/download/models/152309?type=Model&format=SafeTensor",
         "DetailTweaker.safetensors": "https://civitai.com/api/download/models/135867?type=Model&format=SafeTensor",
         "SmolDragons.safetensors": "https://civitai.com/api/download/models/263231?type=Model&format=SafeTensor",
