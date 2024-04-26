@@ -346,7 +346,6 @@ checkpoint_downloads = get_config_item_or_set_default(
 lora_downloads = get_config_item_or_set_default(
     key='lora_downloads',
     default_value={
-        "DisneyPrincessXL.safetensors": "https://civitai.com/api/download/models/244808?type=Model&format=SafeTensor",
         "MoreArt.safetensors": "https://civitai.com/api/download/models/152309?type=Model&format=SafeTensor",
         "DetailTweaker.safetensors": "https://civitai.com/api/download/models/135867?type=Model&format=SafeTensor",
         "SmolDragons.safetensors": "https://civitai.com/api/download/models/263231?type=Model&format=SafeTensor",
