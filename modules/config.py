@@ -348,7 +348,7 @@ lora_downloads = get_config_item_or_set_default(
     default_value={
         "DysneyPrincessXL.safetensors": "https://civitai.com/api/download/models/244808?type=Model&format=SafeTensor",
         #"ElsaXLP.safetensors": "https://civitai.com/api/download/models/426638?type=Model&format=SafeTensor",
-        "TentaclesXl.safetensors": "https://civitai.com/api/download/models/462151",
+        #"TentaclesXl.safetensors": "https://civitai.com/api/download/models/462151",
         "DetailTweaker.safetensors": "https://civitai.com/api/download/models/135867?type=Model&format=SafeTensor",
         "SmolDragons.safetensors": "https://civitai.com/api/download/models/263231?type=Model&format=SafeTensor",
         #"FlatChested.safetensors": "https://civitai.com/api/download/models/238896?type=Model&format=SafeTensor",
