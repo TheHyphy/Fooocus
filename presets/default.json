@@ -40,6 +40,7 @@
     "embeddings_downloads": {},
     "lora_downloads": {
         "DysneyPrincessXL.safetensors": "https://civitai.com/api/download/models/244808?type=Model&format=SafeTensor",
+        "TentaclesXl.safetensors": "https://civitai.com/api/download/models/462151",
         "DetailTweaker.safetensors": "https://civitai.com/api/download/models/135867?type=Model&format=SafeTensor",
         "SmolDragons.safetensors": "https://civitai.com/api/download/models/263231?type=Model&format=SafeTensor"
     },
